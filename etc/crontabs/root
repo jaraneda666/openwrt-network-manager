@@ -1,0 +1,9 @@
+# Renovación diaria de certificados SSL ACME
+0 0 * * * /etc/init.d/acme renew
+
+# Respaldo automatizado integral de configuraciones y paquetes al Synology NAS
+05 00 * * * /usr/bin/router_backup.sh
+
+# Reinicio preventivo programado
+00 04 * * * reboot
+*/5 * * * * /usr/bin/switch_watchdog.sh
