@@ -29,5 +29,5 @@ python tools/openwrt_client.py --host 192.168.1.1 --action audit
 
 ---
 
-**Autor:** Security Analyst  
-**Licencia:** Uso Privado / Propietario
+**Autor:** Juan Carlos Araneda M.  
+**Licencia:** MIT License (consulte [LICENSE](LICENSE))
